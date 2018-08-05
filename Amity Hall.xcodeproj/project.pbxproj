@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		545ADA312114256D006C1145 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 545ADA2D2114256D006C1145 /* ProgressHUD.m */; };
+		545ADA322114256D006C1145 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 545ADA2E2114256D006C1145 /* ProgressHUD.bundle */; };
+		5465DBA12113E68A0059604C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5465DBA02113E68A0059604C /* AppDelegate.swift */; };
+		5465DBA32113E68A0059604C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5465DBA22113E68A0059604C /* ViewController.swift */; };
+		5465DBA62113E68A0059604C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5465DBA42113E68A0059604C /* Main.storyboard */; };
+		5465DBA82113E68B0059604C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5465DBA72113E68B0059604C /* Assets.xcassets */; };
+		5465DBAB2113E68B0059604C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5465DBA92113E68B0059604C /* LaunchScreen.storyboard */; };
+		5465DBB72113EFD10059604C /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5465DBB62113EFD10059604C /* Trivia.swift */; };
+		5465DBB92113F0B10059604C /* TriviaBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5465DBB82113F0B10059604C /* TriviaBank.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		545ADA2D2114256D006C1145 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		545ADA2E2114256D006C1145 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		545ADA2F2114256D006C1145 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		545ADA302114256D006C1145 /* Amity Hall-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Amity Hall-Bridging-Header.h"; sourceTree = "<group>"; };
+		5465DB9D2113E68A0059604C /* Amity Hall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amity Hall.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5465DBA02113E68A0059604C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5465DBA22113E68A0059604C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5465DBA52113E68A0059604C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5465DBA72113E68B0059604C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5465DBAA2113E68B0059604C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5465DBB62113EFD10059604C /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		5465DBB82113F0B10059604C /* TriviaBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaBank.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5465DB9A2113E68A0059604C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		545ADA2C211424EB006C1145 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				545ADA302114256D006C1145 /* Amity Hall-Bridging-Header.h */,
+				545ADA2E2114256D006C1145 /* ProgressHUD.bundle */,
+				545ADA2F2114256D006C1145 /* ProgressHUD.h */,
+				545ADA2D2114256D006C1145 /* ProgressHUD.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5465DB942113E68A0059604C = {
+			isa = PBXGroup;
+			children = (
+				5465DB9F2113E68A0059604C /* Amity Hall */,
+				5465DBA92113E68B0059604C /* LaunchScreen.storyboard */,
+				5465DB9E2113E68A0059604C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5465DB9E2113E68A0059604C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5465DB9D2113E68A0059604C /* Amity Hall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5465DB9F2113E68A0059604C /* Amity Hall */ = {
+			isa = PBXGroup;
+			children = (
+				545ADA2C211424EB006C1145 /* Supporting Files */,
+				5465DBB22113EF690059604C /* Controller */,
+				5465DBB32113EF710059604C /* Model */,
+				5465DBB42113EF780059604C /* View */,
+			);
+			path = "Amity Hall";
+			sourceTree = "<group>";
+		};
+		5465DBB22113EF690059604C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5465DBA02113E68A0059604C /* AppDelegate.swift */,
+				5465DBA22113E68A0059604C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5465DBB32113EF710059604C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5465DBB62113EFD10059604C /* Trivia.swift */,
+				5465DBB82113F0B10059604C /* TriviaBank.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5465DBB42113EF780059604C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5465DBA42113E68A0059604C /* Main.storyboard */,
+				5465DBA72113E68B0059604C /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5465DB9C2113E68A0059604C /* Amity Hall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5465DBAF2113E68B0059604C /* Build configuration list for PBXNativeTarget "Amity Hall" */;
+			buildPhases = (
+				5465DB992113E68A0059604C /* Sources */,
+				5465DB9A2113E68A0059604C /* Frameworks */,
+				5465DB9B2113E68A0059604C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amity Hall";
+			productName = "Amity Hall";
+			productReference = 5465DB9D2113E68A0059604C /* Amity Hall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5465DB952113E68A0059604C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Parko Inc";
+				TargetAttributes = {
+					5465DB9C2113E68A0059604C = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 5465DB982113E68A0059604C /* Build configuration list for PBXProject "Amity Hall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5465DB942113E68A0059604C;
+			productRefGroup = 5465DB9E2113E68A0059604C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5465DB9C2113E68A0059604C /* Amity Hall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5465DB9B2113E68A0059604C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545ADA322114256D006C1145 /* ProgressHUD.bundle in Resources */,
+				5465DBAB2113E68B0059604C /* LaunchScreen.storyboard in Resources */,
+				5465DBA82113E68B0059604C /* Assets.xcassets in Resources */,
+				5465DBA62113E68A0059604C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5465DB992113E68A0059604C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5465DBB72113EFD10059604C /* Trivia.swift in Sources */,
+				5465DBB92113F0B10059604C /* TriviaBank.swift in Sources */,
+				545ADA312114256D006C1145 /* ProgressHUD.m in Sources */,
+				5465DBA32113E68A0059604C /* ViewController.swift in Sources */,
+				5465DBA12113E68A0059604C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5465DBA42113E68A0059604C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5465DBA52113E68A0059604C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5465DBA92113E68B0059604C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5465DBAA2113E68B0059604C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5465DBAD2113E68B0059604C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5465DBAE2113E68B0059604C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5465DBB02113E68B0059604C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9832W7M73;
+				INFOPLIST_FILE = "Amity Hall/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkoinc.Amity-Hall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Amity Hall/Supporting Files/Amity Hall-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5465DBB12113E68B0059604C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9832W7M73;
+				INFOPLIST_FILE = "Amity Hall/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkoinc.Amity-Hall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Amity Hall/Supporting Files/Amity Hall-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5465DB982113E68A0059604C /* Build configuration list for PBXProject "Amity Hall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5465DBAD2113E68B0059604C /* Debug */,
+				5465DBAE2113E68B0059604C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5465DBAF2113E68B0059604C /* Build configuration list for PBXNativeTarget "Amity Hall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5465DBB02113E68B0059604C /* Debug */,
+				5465DBB12113E68B0059604C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5465DB952113E68A0059604C /* Project object */;
+}
