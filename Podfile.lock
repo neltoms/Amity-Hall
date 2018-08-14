@@ -1,0 +1,21 @@
+PODS:
+  - Fuzzywuzzy_swift (0.0.2)
+
+DEPENDENCIES:
+  - Fuzzywuzzy_swift (from `https://github.com/lxian/Fuzzywuzzy_swift.git`)
+
+EXTERNAL SOURCES:
+  Fuzzywuzzy_swift:
+    :git: https://github.com/lxian/Fuzzywuzzy_swift.git
+
+CHECKOUT OPTIONS:
+  Fuzzywuzzy_swift:
+    :commit: 0a50eb2ca68b37845683289fbd86e22ac1310137
+    :git: https://github.com/lxian/Fuzzywuzzy_swift.git
+
+SPEC CHECKSUMS:
+  Fuzzywuzzy_swift: a2f9a77bb6d3f1d99dc6364eda541254124e393d
+
+PODFILE CHECKSUM: 93d26a01c34afde8d6ccb3eab5731eeb8d942e9c
+
+COCOAPODS: 1.5.3

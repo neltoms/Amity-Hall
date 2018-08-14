@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0581872EBA17A0244C9FD9DA7EA00FE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		1F3308CE7DDC40360D8527BE09BF6BE9 /* LevenshteinDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946FA5286A9695AFAFF3EAADA121A5D2 /* LevenshteinDistance.swift */; };
+		3000F2BD885A75D9FBF8B39245B6C841 /* Fuzzywuzzy_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = AD6986FF29A52C074042F79593C3D3D8 /* Fuzzywuzzy_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		624B9350FE853C5A465780441D16DEAE /* Pods-Amity Hall-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DEEEBFE4A3FA403EA6E5CD6ADA6BDF /* Pods-Amity Hall-dummy.m */; };
+		A04CB7788E9B7AC293AC381BD2D7F3A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BAF962F55B8036BDE3DC65C7E07FEF7E /* CommonSubstrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8333AD6E801162B15E82157DBC0339 /* CommonSubstrings.swift */; };
+		BDA126C336B4BD8F3A0C04EAE1C0DA5F /* StringProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD2B5ECF162A335CAB425315BF1E5C /* StringProcessor.swift */; };
+		C640B42E570DA464BD40C419E87896FB /* Fuzzywuzzy_swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C99E6928F814CF271E1EF0B4444F32 /* Fuzzywuzzy_swift-dummy.m */; };
+		D6E8708393D636C763D5EF894488C449 /* Pods-Amity Hall-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E9D5A729347AF17BAC09F379C36A91 /* Pods-Amity Hall-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD26A76F8B7D715D286C87E757604354 /* String_Fuzzywuzzy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7A275C87C05BD9FDAFFAED15C7FC1 /* String_Fuzzywuzzy.swift */; };
+		DDC894B4C7463D6A655EE6C6766CB618 /* Fuzzywuzzy_swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 402DC629025241BCD6C0FED80F460A46 /* Fuzzywuzzy_swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB91FBFCF74A50571706C3891B8FB897 /* StringMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F0F77170B31A365A689CD8F0C0333B /* StringMatcher.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E37BCB4B3E9A4F8E0AFAE4AE153D605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4A6F5B6F82CA798D6EFA35E3FF27130;
+			remoteInfo = Fuzzywuzzy_swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E8333AD6E801162B15E82157DBC0339 /* CommonSubstrings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommonSubstrings.swift; path = Fuzzywuzzy_swift/CommonSubstrings.swift; sourceTree = "<group>"; };
+		2CB7A275C87C05BD9FDAFFAED15C7FC1 /* String_Fuzzywuzzy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String_Fuzzywuzzy.swift; path = Fuzzywuzzy_swift/String_Fuzzywuzzy.swift; sourceTree = "<group>"; };
+		402DC629025241BCD6C0FED80F460A46 /* Fuzzywuzzy_swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fuzzywuzzy_swift-umbrella.h"; sourceTree = "<group>"; };
+		4B8016358E1180E1C805C606C7CFE41F /* Fuzzywuzzy_swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fuzzywuzzy_swift.xcconfig; sourceTree = "<group>"; };
+		506130937C9C7B1025D0E458FD3E9A0B /* Pods-Amity Hall-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Amity Hall-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A63C3967A25B0078FC4B79F0F45F7A9 /* Fuzzywuzzy_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Fuzzywuzzy_swift.framework; path = Fuzzywuzzy_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F94E52513378B838183D098D9BC9319 /* Pods-Amity Hall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Amity Hall.release.xcconfig"; sourceTree = "<group>"; };
+		60DEEEBFE4A3FA403EA6E5CD6ADA6BDF /* Pods-Amity Hall-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Amity Hall-dummy.m"; sourceTree = "<group>"; };
+		624CF1BADD8B013A082015914E8DEB51 /* Pods-Amity Hall.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Amity Hall.modulemap"; sourceTree = "<group>"; };
+		64670AFD51B2D09227D181F0CBAFFC01 /* Pods-Amity Hall-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Amity Hall-resources.sh"; sourceTree = "<group>"; };
+		7905D11520C2A3B9947271AFA207E87C /* Pods-Amity Hall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Amity Hall.debug.xcconfig"; sourceTree = "<group>"; };
+		82C99E6928F814CF271E1EF0B4444F32 /* Fuzzywuzzy_swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fuzzywuzzy_swift-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		942A2E43A04EB31384F8F9D1FC3ECD81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946FA5286A9695AFAFF3EAADA121A5D2 /* LevenshteinDistance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LevenshteinDistance.swift; path = Fuzzywuzzy_swift/LevenshteinDistance.swift; sourceTree = "<group>"; };
+		96E9D5A729347AF17BAC09F379C36A91 /* Pods-Amity Hall-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Amity Hall-umbrella.h"; sourceTree = "<group>"; };
+		9CF3FB7AAB2942BD26EC82D4A4D9A178 /* Fuzzywuzzy_swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fuzzywuzzy_swift-prefix.pch"; sourceTree = "<group>"; };
+		A8FE60DDDDCE2BAFF8B04DC6211E3B6A /* Fuzzywuzzy_swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Fuzzywuzzy_swift.modulemap; sourceTree = "<group>"; };
+		AD6986FF29A52C074042F79593C3D3D8 /* Fuzzywuzzy_swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fuzzywuzzy_swift.h; path = Fuzzywuzzy_swift/Fuzzywuzzy_swift.h; sourceTree = "<group>"; };
+		AFFEDB1E75AD330EBA3ED3F1BB138C4E /* Pods-Amity Hall-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Amity Hall-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA8EA64F19469D2559023A359FA56F06 /* Pods-Amity Hall-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Amity Hall-frameworks.sh"; sourceTree = "<group>"; };
+		D3F08D69522E1A60FAEA11FFACF55562 /* Pods_Amity_Hall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Amity_Hall.framework; path = "Pods-Amity Hall.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC90B2AFB5A02520288778592FB01B7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4F0F77170B31A365A689CD8F0C0333B /* StringMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringMatcher.swift; path = Fuzzywuzzy_swift/StringMatcher.swift; sourceTree = "<group>"; };
+		ECAD2B5ECF162A335CAB425315BF1E5C /* StringProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringProcessor.swift; path = Fuzzywuzzy_swift/StringProcessor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB1FA1F00F8466B08C19C5D17012E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04CB7788E9B7AC293AC381BD2D7F3A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7691D19F6F8F182581D12224A2757BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0581872EBA17A0244C9FD9DA7EA00FE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		237A8E50F81CFA9CD00E7E50626D7AFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76DC0EB6E6D7D3834FC98C5E0063AC73 /* Fuzzywuzzy_swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		31358054A5655F54C1348309018C9B0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A63C3967A25B0078FC4B79F0F45F7A9 /* Fuzzywuzzy_swift.framework */,
+				D3F08D69522E1A60FAEA11FFACF55562 /* Pods_Amity_Hall.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D838BE5E2C19F3AF20297B703E5197C /* Pods-Amity Hall */ = {
+			isa = PBXGroup;
+			children = (
+				942A2E43A04EB31384F8F9D1FC3ECD81 /* Info.plist */,
+				624CF1BADD8B013A082015914E8DEB51 /* Pods-Amity Hall.modulemap */,
+				506130937C9C7B1025D0E458FD3E9A0B /* Pods-Amity Hall-acknowledgements.markdown */,
+				AFFEDB1E75AD330EBA3ED3F1BB138C4E /* Pods-Amity Hall-acknowledgements.plist */,
+				60DEEEBFE4A3FA403EA6E5CD6ADA6BDF /* Pods-Amity Hall-dummy.m */,
+				CA8EA64F19469D2559023A359FA56F06 /* Pods-Amity Hall-frameworks.sh */,
+				64670AFD51B2D09227D181F0CBAFFC01 /* Pods-Amity Hall-resources.sh */,
+				96E9D5A729347AF17BAC09F379C36A91 /* Pods-Amity Hall-umbrella.h */,
+				7905D11520C2A3B9947271AFA207E87C /* Pods-Amity Hall.debug.xcconfig */,
+				5F94E52513378B838183D098D9BC9319 /* Pods-Amity Hall.release.xcconfig */,
+			);
+			name = "Pods-Amity Hall";
+			path = "Target Support Files/Pods-Amity Hall";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76DC0EB6E6D7D3834FC98C5E0063AC73 /* Fuzzywuzzy_swift */ = {
+			isa = PBXGroup;
+			children = (
+				1E8333AD6E801162B15E82157DBC0339 /* CommonSubstrings.swift */,
+				AD6986FF29A52C074042F79593C3D3D8 /* Fuzzywuzzy_swift.h */,
+				946FA5286A9695AFAFF3EAADA121A5D2 /* LevenshteinDistance.swift */,
+				2CB7A275C87C05BD9FDAFFAED15C7FC1 /* String_Fuzzywuzzy.swift */,
+				E4F0F77170B31A365A689CD8F0C0333B /* StringMatcher.swift */,
+				ECAD2B5ECF162A335CAB425315BF1E5C /* StringProcessor.swift */,
+				CBEF552E1C666F28200C1E88A0B80953 /* Support Files */,
+			);
+			name = Fuzzywuzzy_swift;
+			path = Fuzzywuzzy_swift;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				237A8E50F81CFA9CD00E7E50626D7AFD /* Pods */,
+				31358054A5655F54C1348309018C9B0A /* Products */,
+				8A96DD6F776B8CD55CDD4B283946F842 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A96DD6F776B8CD55CDD4B283946F842 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D838BE5E2C19F3AF20297B703E5197C /* Pods-Amity Hall */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBEF552E1C666F28200C1E88A0B80953 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8FE60DDDDCE2BAFF8B04DC6211E3B6A /* Fuzzywuzzy_swift.modulemap */,
+				4B8016358E1180E1C805C606C7CFE41F /* Fuzzywuzzy_swift.xcconfig */,
+				82C99E6928F814CF271E1EF0B4444F32 /* Fuzzywuzzy_swift-dummy.m */,
+				9CF3FB7AAB2942BD26EC82D4A4D9A178 /* Fuzzywuzzy_swift-prefix.pch */,
+				402DC629025241BCD6C0FED80F460A46 /* Fuzzywuzzy_swift-umbrella.h */,
+				DC90B2AFB5A02520288778592FB01B7C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Fuzzywuzzy_swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1026D68511628975AFCA76ED94D76136 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E8708393D636C763D5EF894488C449 /* Pods-Amity Hall-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8913412A7D39C0CA2CB82DD5C870116D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC894B4C7463D6A655EE6C6766CB618 /* Fuzzywuzzy_swift-umbrella.h in Headers */,
+				3000F2BD885A75D9FBF8B39245B6C841 /* Fuzzywuzzy_swift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		163BD29931FB2AA96B59A0F41DB89ABC /* Pods-Amity Hall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7801358CBAA48A551759BA8B9A80A132 /* Build configuration list for PBXNativeTarget "Pods-Amity Hall" */;
+			buildPhases = (
+				D4E15A2977EFF32EC8F5E1A05A5C434E /* Sources */,
+				1DB1FA1F00F8466B08C19C5D17012E38 /* Frameworks */,
+				1026D68511628975AFCA76ED94D76136 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA474AF560FC248160755FF9A490316 /* PBXTargetDependency */,
+			);
+			name = "Pods-Amity Hall";
+			productName = "Pods-Amity Hall";
+			productReference = D3F08D69522E1A60FAEA11FFACF55562 /* Pods_Amity_Hall.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4A6F5B6F82CA798D6EFA35E3FF27130 /* Fuzzywuzzy_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93EFDB9700BF0A369A551D3B946C8154 /* Build configuration list for PBXNativeTarget "Fuzzywuzzy_swift" */;
+			buildPhases = (
+				14884B9501839D9A30C7B94905FE4010 /* Sources */,
+				7691D19F6F8F182581D12224A2757BB2 /* Frameworks */,
+				8913412A7D39C0CA2CB82DD5C870116D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fuzzywuzzy_swift;
+			productName = Fuzzywuzzy_swift;
+			productReference = 5A63C3967A25B0078FC4B79F0F45F7A9 /* Fuzzywuzzy_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 31358054A5655F54C1348309018C9B0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4A6F5B6F82CA798D6EFA35E3FF27130 /* Fuzzywuzzy_swift */,
+				163BD29931FB2AA96B59A0F41DB89ABC /* Pods-Amity Hall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14884B9501839D9A30C7B94905FE4010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF962F55B8036BDE3DC65C7E07FEF7E /* CommonSubstrings.swift in Sources */,
+				C640B42E570DA464BD40C419E87896FB /* Fuzzywuzzy_swift-dummy.m in Sources */,
+				1F3308CE7DDC40360D8527BE09BF6BE9 /* LevenshteinDistance.swift in Sources */,
+				DD26A76F8B7D715D286C87E757604354 /* String_Fuzzywuzzy.swift in Sources */,
+				EB91FBFCF74A50571706C3891B8FB897 /* StringMatcher.swift in Sources */,
+				BDA126C336B4BD8F3A0C04EAE1C0DA5F /* StringProcessor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E15A2977EFF32EC8F5E1A05A5C434E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624B9350FE853C5A465780441D16DEAE /* Pods-Amity Hall-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFA474AF560FC248160755FF9A490316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fuzzywuzzy_swift;
+			target = D4A6F5B6F82CA798D6EFA35E3FF27130 /* Fuzzywuzzy_swift */;
+			targetProxy = 3E37BCB4B3E9A4F8E0AFAE4AE153D605 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07CC53C0E5A78CFD3B97A7754EDC6151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8016358E1180E1C805C606C7CFE41F /* Fuzzywuzzy_swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Fuzzywuzzy_swift/Fuzzywuzzy_swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fuzzywuzzy_swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Fuzzywuzzy_swift/Fuzzywuzzy_swift.modulemap";
+				PRODUCT_MODULE_NAME = Fuzzywuzzy_swift;
+				PRODUCT_NAME = Fuzzywuzzy_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		09103B205E76CBD94C9CDE263C4CF9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8016358E1180E1C805C606C7CFE41F /* Fuzzywuzzy_swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Fuzzywuzzy_swift/Fuzzywuzzy_swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fuzzywuzzy_swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Fuzzywuzzy_swift/Fuzzywuzzy_swift.modulemap";
+				PRODUCT_MODULE_NAME = Fuzzywuzzy_swift;
+				PRODUCT_NAME = Fuzzywuzzy_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1464BB655DB2A908BA21247F60A66E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F94E52513378B838183D098D9BC9319 /* Pods-Amity Hall.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Amity Hall/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Amity Hall/Pods-Amity Hall.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2F9DC913364B921F31E0A17DECB3D57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7905D11520C2A3B9947271AFA207E87C /* Pods-Amity Hall.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Amity Hall/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Amity Hall/Pods-Amity Hall.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7801358CBAA48A551759BA8B9A80A132 /* Build configuration list for PBXNativeTarget "Pods-Amity Hall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9DC913364B921F31E0A17DECB3D57A /* Debug */,
+				1464BB655DB2A908BA21247F60A66E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93EFDB9700BF0A369A551D3B946C8154 /* Build configuration list for PBXNativeTarget "Fuzzywuzzy_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CC53C0E5A78CFD3B97A7754EDC6151 /* Debug */,
+				09103B205E76CBD94C9CDE263C4CF9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

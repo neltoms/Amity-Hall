@@ -9,13 +9,33 @@
 /* Begin PBXBuildFile section */
 		545ADA312114256D006C1145 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 545ADA2D2114256D006C1145 /* ProgressHUD.m */; };
 		545ADA322114256D006C1145 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 545ADA2E2114256D006C1145 /* ProgressHUD.bundle */; };
+		545E4F58211D1C1900F388B7 /* CreateIdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545E4F57211D1C1900F388B7 /* CreateIdViewController.swift */; };
+		545E4F5A211D1EB200F388B7 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545E4F59211D1EB200F388B7 /* VerifyViewController.swift */; };
+		545E4F612122852300F388B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E4F5D2122852300F388B7 /* CoreGraphics.framework */; };
+		545E4F622122852300F388B7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E4F5E2122852300F388B7 /* CFNetwork.framework */; };
+		545E4F632122852300F388B7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E4F5F2122852300F388B7 /* CoreLocation.framework */; };
+		545E4F642122852300F388B7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E4F602122852300F388B7 /* AudioToolbox.framework */; };
+		545E4F66212285F900F388B7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E4F65212285F900F388B7 /* Security.framework */; };
+		545E4F682122860300F388B7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E4F672122860300F388B7 /* MobileCoreServices.framework */; };
+		545E4F6A2122861F00F388B7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E4F692122861F00F388B7 /* StoreKit.framework */; };
+		545E4F6C2122862A00F388B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E4F6B2122862A00F388B7 /* QuartzCore.framework */; };
+		545E4F6E2122863E00F388B7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E4F6D2122863D00F388B7 /* SystemConfiguration.framework */; };
+		545E4F702122867500F388B7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E4F6F2122867500F388B7 /* libz.tbd */; };
+		545E4F722122868E00F388B7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E4F712122868E00F388B7 /* libsqlite3.tbd */; };
+		545E4F74212286B300F388B7 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E4F73212286B300F388B7 /* Accounts.framework */; };
+		545E4F76212286BA00F388B7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E4F75212286BA00F388B7 /* Social.framework */; };
+		545E4F7A2122874400F388B7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E4F792122874400F388B7 /* Bolts.framework */; };
+		545E4F7C2122874A00F388B7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E4F7B2122874A00F388B7 /* Parse.framework */; };
 		5465DBA12113E68A0059604C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5465DBA02113E68A0059604C /* AppDelegate.swift */; };
-		5465DBA32113E68A0059604C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5465DBA22113E68A0059604C /* ViewController.swift */; };
 		5465DBA62113E68A0059604C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5465DBA42113E68A0059604C /* Main.storyboard */; };
 		5465DBA82113E68B0059604C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5465DBA72113E68B0059604C /* Assets.xcassets */; };
 		5465DBAB2113E68B0059604C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5465DBA92113E68B0059604C /* LaunchScreen.storyboard */; };
 		5465DBB72113EFD10059604C /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5465DBB62113EFD10059604C /* Trivia.swift */; };
 		5465DBB92113F0B10059604C /* TriviaBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5465DBB82113F0B10059604C /* TriviaBank.swift */; };
+		548E7A332117E76100B51334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548E7A322117E76100B51334 /* ViewController.swift */; };
+		548E7A372117E81A00B51334 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548E7A362117E81A00B51334 /* LoginViewController.swift */; };
+		548E7A392117E8A900B51334 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548E7A382117E8A900B51334 /* UserViewController.swift */; };
+		CEBF34D6194BDDACD91D9C3C /* Pods_Amity_Hall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA9CF3AC06C1E5E73234C8B /* Pods_Amity_Hall.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,14 +43,36 @@
 		545ADA2E2114256D006C1145 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		545ADA2F2114256D006C1145 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		545ADA302114256D006C1145 /* Amity Hall-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Amity Hall-Bridging-Header.h"; sourceTree = "<group>"; };
+		545E4F57211D1C1900F388B7 /* CreateIdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIdViewController.swift; sourceTree = "<group>"; };
+		545E4F59211D1EB200F388B7 /* VerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
+		545E4F5D2122852300F388B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		545E4F5E2122852300F388B7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		545E4F5F2122852300F388B7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		545E4F602122852300F388B7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		545E4F65212285F900F388B7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		545E4F672122860300F388B7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		545E4F692122861F00F388B7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		545E4F6B2122862A00F388B7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		545E4F6D2122863D00F388B7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		545E4F6F2122867500F388B7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		545E4F712122868E00F388B7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		545E4F73212286B300F388B7 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		545E4F75212286BA00F388B7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		545E4F792122874400F388B7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Parse-iOS/Bolts.framework"; sourceTree = "<group>"; };
+		545E4F7B2122874A00F388B7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		5465DB9D2113E68A0059604C /* Amity Hall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amity Hall.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5465DBA02113E68A0059604C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5465DBA22113E68A0059604C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5465DBA52113E68A0059604C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5465DBA72113E68B0059604C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5465DBAA2113E68B0059604C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5465DBB62113EFD10059604C /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
 		5465DBB82113F0B10059604C /* TriviaBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaBank.swift; sourceTree = "<group>"; };
+		548E7A322117E76100B51334 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		548E7A362117E81A00B51334 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		548E7A382117E8A900B51334 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		8BA9CF3AC06C1E5E73234C8B /* Pods_Amity_Hall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amity_Hall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA1E39898F510CDEAFE5F5A /* Pods-Amity Hall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amity Hall.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amity Hall/Pods-Amity Hall.release.xcconfig"; sourceTree = "<group>"; };
+		E91E8C4771DE88440893C15A /* Pods-Amity Hall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amity Hall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amity Hall/Pods-Amity Hall.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +80,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				545E4F76212286BA00F388B7 /* Social.framework in Frameworks */,
+				545E4F74212286B300F388B7 /* Accounts.framework in Frameworks */,
+				545E4F722122868E00F388B7 /* libsqlite3.tbd in Frameworks */,
+				545E4F702122867500F388B7 /* libz.tbd in Frameworks */,
+				545E4F6E2122863E00F388B7 /* SystemConfiguration.framework in Frameworks */,
+				545E4F7C2122874A00F388B7 /* Parse.framework in Frameworks */,
+				545E4F6C2122862A00F388B7 /* QuartzCore.framework in Frameworks */,
+				545E4F6A2122861F00F388B7 /* StoreKit.framework in Frameworks */,
+				545E4F682122860300F388B7 /* MobileCoreServices.framework in Frameworks */,
+				545E4F66212285F900F388B7 /* Security.framework in Frameworks */,
+				545E4F612122852300F388B7 /* CoreGraphics.framework in Frameworks */,
+				545E4F622122852300F388B7 /* CFNetwork.framework in Frameworks */,
+				545E4F632122852300F388B7 /* CoreLocation.framework in Frameworks */,
+				545E4F642122852300F388B7 /* AudioToolbox.framework in Frameworks */,
+				CEBF34D6194BDDACD91D9C3C /* Pods_Amity_Hall.framework in Frameworks */,
+				545E4F7A2122874400F388B7 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +119,8 @@
 				5465DB9F2113E68A0059604C /* Amity Hall */,
 				5465DBA92113E68B0059604C /* LaunchScreen.storyboard */,
 				5465DB9E2113E68A0059604C /* Products */,
+				6B5882EAA9F0FA5C5830F8E9 /* Pods */,
+				CE1FE6CD4A5387B3278B94D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,8 +146,12 @@
 		5465DBB22113EF690059604C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				548E7A382117E8A900B51334 /* UserViewController.swift */,
+				548E7A362117E81A00B51334 /* LoginViewController.swift */,
+				548E7A322117E76100B51334 /* ViewController.swift */,
 				5465DBA02113E68A0059604C /* AppDelegate.swift */,
-				5465DBA22113E68A0059604C /* ViewController.swift */,
+				545E4F57211D1C1900F388B7 /* CreateIdViewController.swift */,
+				545E4F59211D1EB200F388B7 /* VerifyViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -110,6 +174,38 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		6B5882EAA9F0FA5C5830F8E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E91E8C4771DE88440893C15A /* Pods-Amity Hall.debug.xcconfig */,
+				BFA1E39898F510CDEAFE5F5A /* Pods-Amity Hall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE1FE6CD4A5387B3278B94D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				545E4F7B2122874A00F388B7 /* Parse.framework */,
+				545E4F792122874400F388B7 /* Bolts.framework */,
+				545E4F75212286BA00F388B7 /* Social.framework */,
+				545E4F73212286B300F388B7 /* Accounts.framework */,
+				545E4F712122868E00F388B7 /* libsqlite3.tbd */,
+				545E4F6F2122867500F388B7 /* libz.tbd */,
+				545E4F6D2122863D00F388B7 /* SystemConfiguration.framework */,
+				545E4F6B2122862A00F388B7 /* QuartzCore.framework */,
+				545E4F692122861F00F388B7 /* StoreKit.framework */,
+				545E4F672122860300F388B7 /* MobileCoreServices.framework */,
+				545E4F65212285F900F388B7 /* Security.framework */,
+				545E4F602122852300F388B7 /* AudioToolbox.framework */,
+				545E4F5E2122852300F388B7 /* CFNetwork.framework */,
+				545E4F5D2122852300F388B7 /* CoreGraphics.framework */,
+				545E4F5F2122852300F388B7 /* CoreLocation.framework */,
+				8BA9CF3AC06C1E5E73234C8B /* Pods_Amity_Hall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5465DBAF2113E68B0059604C /* Build configuration list for PBXNativeTarget "Amity Hall" */;
 			buildPhases = (
+				7EF835E5F9841E8BACD67A57 /* [CP] Check Pods Manifest.lock */,
 				5465DB992113E68A0059604C /* Sources */,
 				5465DB9A2113E68A0059604C /* Frameworks */,
 				5465DB9B2113E68A0059604C /* Resources */,
+				6141A7A88367CD741D243D44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,16 +276,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6141A7A88367CD741D243D44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Amity Hall/Pods-Amity Hall-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Fuzzywuzzy_swift/Fuzzywuzzy_swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fuzzywuzzy_swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amity Hall/Pods-Amity Hall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EF835E5F9841E8BACD67A57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amity Hall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5465DB992113E68A0059604C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				545E4F5A211D1EB200F388B7 /* VerifyViewController.swift in Sources */,
+				548E7A392117E8A900B51334 /* UserViewController.swift in Sources */,
+				548E7A372117E81A00B51334 /* LoginViewController.swift in Sources */,
+				548E7A332117E76100B51334 /* ViewController.swift in Sources */,
 				5465DBB72113EFD10059604C /* Trivia.swift in Sources */,
 				5465DBB92113F0B10059604C /* TriviaBank.swift in Sources */,
 				545ADA312114256D006C1145 /* ProgressHUD.m in Sources */,
-				5465DBA32113E68A0059604C /* ViewController.swift in Sources */,
 				5465DBA12113E68A0059604C /* AppDelegate.swift in Sources */,
+				545E4F58211D1C1900F388B7 /* CreateIdViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,11 +470,17 @@
 		};
 		5465DBB02113E68B0059604C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E91E8C4771DE88440893C15A /* Pods-Amity Hall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K9832W7M73;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Parse-iOS",
+				);
 				INFOPLIST_FILE = "Amity Hall/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -350,11 +497,17 @@
 		};
 		5465DBB12113E68B0059604C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA1E39898F510CDEAFE5F5A /* Pods-Amity Hall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K9832W7M73;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Parse-iOS",
+				);
 				INFOPLIST_FILE = "Amity Hall/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

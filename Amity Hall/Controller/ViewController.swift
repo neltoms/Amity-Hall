@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Fuzzywuzzy_swift
 
 
 class ViewController: UIViewController {
@@ -25,6 +26,8 @@ class ViewController: UIViewController {
     @IBAction func submitButton(_ sender: UIButton) {
         checkAnswer()
         textFieldShouldReturn(textField: textField)
+        questionNumber+=1
+        updateUI()
     }
 
     
@@ -47,8 +50,8 @@ class ViewController: UIViewController {
     
     func updateUI() {
         
-        progressBar.frame.size.width = (view.frame.size.width / 13) * CGFloat(questionNumber)
-        progressLabel.text = String(questionNumber) + "/13"
+        progressBar.frame.size.width = (view.frame.size.width / 13+1) * CGFloat(questionNumber)
+        progressLabel.text = String(questionNumber+1) + "/13"
         
         nextQuestion()
 
@@ -70,7 +73,6 @@ class ViewController: UIViewController {
             
             present(alert, animated: true, completion: nil)
         }
-        
     }
     func startOver() {
         
@@ -81,10 +83,10 @@ class ViewController: UIViewController {
     }
 
     func checkAnswer() {
-
-        let correctAnswer = allQuestions.list[questionNumber].answer.lowercased().split(separator: " ")
-        print(correctAnswer)
-        let typedAnswer = textField.text!.lowercased().split(separator: " ")
+        
+        let correctAnswer = allQuestions.list[questionNumber].answer.lowercased()
+       
+        let typedAnswer = textField.text!.lowercased()
         
         if typedAnswer.isEmpty {
             let myAlert = UIAlertController(title: "Alert", message: "Please enter an answer", preferredStyle: UIAlertControllerStyle.alert)
@@ -96,7 +98,9 @@ class ViewController: UIViewController {
             
             return
         }
-        if (typedAnswer == correctAnswer){
+        print(String.fuzzRatio(str1: correctAnswer, str2: typedAnswer))
+        print(correctAnswer)
+        if String.fuzzRatio(str1: correctAnswer, str2: typedAnswer) > 90 {
             ProgressHUD.showSuccess("Answer Submitted")
             
             score += 1
@@ -105,8 +109,10 @@ class ViewController: UIViewController {
 
             ProgressHUD.showSuccess("Answer Submitted")
         }
+        
  
     }
+    
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         
         textField.resignFirstResponder()

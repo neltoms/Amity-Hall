@@ -13,8 +13,8 @@ class Trivia {
     let questionText : String
     let answer : String
     
-    init(text: String, corAnsr: String) {
+    init(text: String, correctAnswer: String) {
         questionText = text
-        answer = corAnsr
+        answer = correctAnswer
     }
 }

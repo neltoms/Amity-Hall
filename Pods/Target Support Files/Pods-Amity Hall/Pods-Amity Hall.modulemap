@@ -1,0 +1,6 @@
+framework module Pods_Amity_Hall {
+  umbrella header "Pods-Amity Hall-umbrella.h"
+
+  export *
+  module * { export * }
+}
