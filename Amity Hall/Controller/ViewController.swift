@@ -8,6 +8,7 @@
 
 import UIKit
 import Fuzzywuzzy_swift
+import Firebase
 
 
 class ViewController: UIViewController {
@@ -18,16 +19,42 @@ class ViewController: UIViewController {
     var greenButt : AnyObject!
     
     @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var submitButton: UIButton!
     @IBOutlet weak var progressLabel: UILabel!
     @IBOutlet weak var progressBar: UIProgressView!
     @IBOutlet weak var questionLabel: UILabel!
     
     
-    @IBAction func submitButton(_ sender: UIButton) {
+    
+    
+    @IBAction func submitButtonPressed(_ sender: UIButton) {
+        
+        textField.endEditing(true)
+        //TODO: Send the message to Firebase and save it in our database
+        textField.isEnabled = false
+        submitButton.isEnabled = false
+        
+        let questionAnswerDB = Database.database().reference().child("Question & Answers")
+        
+        let questAndAnswerDictionary = ["Sender" : Auth.auth().currentUser?.email, "MessageBody" : textField.text!, "Question" : questionLabel.text]
+        
+        questionAnswerDB.childByAutoId().setValue(questAndAnswerDictionary) {
+            (error, reference) in
+            
+            if error != nil {
+                print(error!)
+            } else {
+                print("Message saved successfully!")
+                self.textField.isEnabled = true
+                self.submitButton.isEnabled = true
+                self.textField.text = ""
+            }
+            
+        }
         checkAnswer()
-        textFieldShouldReturn(textField: textField)
         questionNumber+=1
         updateUI()
+        
     }
 
     

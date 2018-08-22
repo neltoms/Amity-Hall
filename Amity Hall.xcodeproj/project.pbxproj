@@ -35,7 +35,8 @@
 		548E7A332117E76100B51334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548E7A322117E76100B51334 /* ViewController.swift */; };
 		548E7A372117E81A00B51334 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548E7A362117E81A00B51334 /* LoginViewController.swift */; };
 		548E7A392117E8A900B51334 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548E7A382117E8A900B51334 /* UserViewController.swift */; };
-		CEBF34D6194BDDACD91D9C3C /* Pods_Amity_Hall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA9CF3AC06C1E5E73234C8B /* Pods_Amity_Hall.framework */; };
+		54F747B0212B2E010090F134 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54F747AF212B2E010090F134 /* GoogleService-Info.plist */; };
+		644881A2A12E549844EB0D2E /* Pods_Amity_Hall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E133931A3DF5A1E5E0B12D0 /* Pods_Amity_Hall.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,7 +71,8 @@
 		548E7A322117E76100B51334 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		548E7A362117E81A00B51334 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		548E7A382117E8A900B51334 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
-		8BA9CF3AC06C1E5E73234C8B /* Pods_Amity_Hall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amity_Hall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F747AF212B2E010090F134 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E133931A3DF5A1E5E0B12D0 /* Pods_Amity_Hall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amity_Hall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA1E39898F510CDEAFE5F5A /* Pods-Amity Hall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amity Hall.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amity Hall/Pods-Amity Hall.release.xcconfig"; sourceTree = "<group>"; };
 		E91E8C4771DE88440893C15A /* Pods-Amity Hall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amity Hall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amity Hall/Pods-Amity Hall.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,8 +96,8 @@
 				545E4F622122852300F388B7 /* CFNetwork.framework in Frameworks */,
 				545E4F632122852300F388B7 /* CoreLocation.framework in Frameworks */,
 				545E4F642122852300F388B7 /* AudioToolbox.framework in Frameworks */,
-				CEBF34D6194BDDACD91D9C3C /* Pods_Amity_Hall.framework in Frameworks */,
 				545E4F7A2122874400F388B7 /* Bolts.framework in Frameworks */,
+				644881A2A12E549844EB0D2E /* Pods_Amity_Hall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +107,7 @@
 		545ADA2C211424EB006C1145 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				54F747AF212B2E010090F134 /* GoogleService-Info.plist */,
 				545ADA302114256D006C1145 /* Amity Hall-Bridging-Header.h */,
 				545ADA2E2114256D006C1145 /* ProgressHUD.bundle */,
 				545ADA2F2114256D006C1145 /* ProgressHUD.h */,
@@ -201,7 +204,7 @@
 				545E4F5E2122852300F388B7 /* CFNetwork.framework */,
 				545E4F5D2122852300F388B7 /* CoreGraphics.framework */,
 				545E4F5F2122852300F388B7 /* CoreLocation.framework */,
-				8BA9CF3AC06C1E5E73234C8B /* Pods_Amity_Hall.framework */,
+				5E133931A3DF5A1E5E0B12D0 /* Pods_Amity_Hall.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				545ADA322114256D006C1145 /* ProgressHUD.bundle in Resources */,
 				5465DBAB2113E68B0059604C /* LaunchScreen.storyboard in Resources */,
+				54F747B0212B2E010090F134 /* GoogleService-Info.plist in Resources */,
 				5465DBA82113E68B0059604C /* Assets.xcassets in Resources */,
 				5465DBA62113E68A0059604C /* Main.storyboard in Resources */,
 			);
@@ -284,11 +288,23 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Amity Hall/Pods-Amity Hall-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/Fuzzywuzzy_swift/Fuzzywuzzy_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fuzzywuzzy_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -491,7 +507,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Amity Hall/Supporting Files/Amity Hall-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -517,7 +533,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Amity Hall/Supporting Files/Amity Hall-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

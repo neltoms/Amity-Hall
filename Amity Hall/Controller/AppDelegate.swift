@@ -9,6 +9,7 @@
 import UIKit
 import Parse
 import Bolts
+import Firebase
 
 
 @UIApplicationMain
@@ -18,15 +19,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        let configuration = ParseClientConfiguration {
-            $0.applicationId = "MU1wSTDdV1xeU4PsfNfZFr2WXQksRoRU2wTFNRpC"
-            $0.clientKey = "2XlLk9MpTp6pMvHbcPSH7ymf3SpnMcjTIh4JdTC1"
-            $0.server = "https://parseapi.back4app.com"
-            $0.isLocalDatastoreEnabled = false // If you need to enable local data store
-        }
-        Parse.initialize(with: configuration)
-        //saveInstallationObject()
+        
+        FirebaseApp.configure()
+        
+        
+//        // Override point for customization after application launch.
+//        let configuration = ParseClientConfiguration {
+//            $0.applicationId = "MU1wSTDdV1xeU4PsfNfZFr2WXQksRoRU2wTFNRpC"
+//            $0.clientKey = "2XlLk9MpTp6pMvHbcPSH7ymf3SpnMcjTIh4JdTC1"
+//            $0.server = "https://parseapi.back4app.com"
+//            $0.isLocalDatastoreEnabled = false // If you need to enable local data store
+//        }
+//        Parse.initialize(with: configuration)
+//
+//        let userName:String? = UserDefaults.standard.string(forKey: "user_name")
+//
+//        if (userName != nil) {
+//
+//            // Navigat to Protected page
+//            let mainStoryBoard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//
+//            var mainPage:UserViewController = mainStoryBoard.instantiateInitialViewController() as! UserViewController
+//
+//            var mainPageNav = UINavigationController(rootViewController: mainPage)
+//
+//            var appDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
+//
+//            appDelegate.window?.rootViewController = mainPageNav
+//        }
         
         return true
     }
@@ -52,22 +72,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-    func saveInstallationObject(){
-        if let installation = PFInstallation.current(){
-            installation.saveInBackground {
-                (success: Bool, error: Error?) in
-                if (success) {
-                    print("You have successfully connected your app to Back4App!")
-                } else {
-                    if let myError = error{
-                        print(myError.localizedDescription)
-                    }else{
-                        print("Uknown error")
-                    }
-                }
-            }
-        }
-    }
+//    func saveInstallationObject(){
+//        if let installation = PFInstallation.current(){
+//            installation.saveInBackground {
+//                (success: Bool, error: Error?) in
+//                if (success) {
+//                    print("You have successfully connected your app to Back4App!")
+//                } else {
+//                    if let myError = error{
+//                        print(myError.localizedDescription)
+//                    }else{
+//                        print("Uknown error")
+//                    }
+//                }
+//            }
+//        }
+//    }
 
 
 }
